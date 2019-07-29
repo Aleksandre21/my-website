@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+ font-family: serif;
+
+}
+header{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    background: white;
+}
+.logo-container{
+    flex: 1;
+}
+nav{
+
+flex: 2;
+}
+.cart{
+justify-content: flex-end;
+
+}
+.logo-container, .navis,.cart{
+    display: flex
+}
+.logo{
+    font-weight: 400;
+    margin: 5px;
+}
+.navis{
+    justify-content: space-around;
+    list-style: none;
+}
+.navi{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(138, 237, 246)
+}
